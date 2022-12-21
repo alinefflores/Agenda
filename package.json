@@ -1,11 +1,12 @@
 {
   "name": "agenda",
   "version": "1.0.0",
+  "description": "",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon server.js --ignore public --ignore frontend",
-    "dev": "webpack -w" 
+    "dev": "webpack -w"
   },
   "repository": {
     "type": "git",
@@ -19,24 +20,20 @@
   },
   "homepage": "https://github.com/alinefflores/Agenda#readme",
   "dependencies": {
-    "cross-env": "^7.0.3",
-    "css-loader": "^3.2.0",
+    "core-js": "^3.26.1",
+    "css-loader": "^6.7.3",
     "ejs": "^3.1.8",
     "express": "^4.18.2",
-    "json-loader": "^0.5.7",
-    "node": "^19.3.0",
-    "style-loader": "^1.0.0"
+    "regenerator-runtime": "^0.13.11",
+    "style-loader": "^3.3.1"
   },
   "devDependencies": {
     "@babel/cli": "^7.19.3",
     "@babel/core": "^7.20.5",
     "@babel/preset-env": "^7.20.2",
-    "babel-loader": "^8.3.0",
-    "core-js": "^2.6.12",
+    "babel-loader": "^9.1.0",
     "nodemon": "^2.0.20",
-    "regenerator-runtime": "^0.13.11",
     "webpack": "^5.75.0",
-    "webpack-cli": "^3.3.12"
-  },
-  "description": ""
+    "webpack-cli": "^5.0.1"
+  }
 }
