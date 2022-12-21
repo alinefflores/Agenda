@@ -4,6 +4,6 @@ exports.paginaInicial = (req, res) => {
 };
 
 exports.trataPost = (req , res) => {
-    res.send ('Rota de POST');
+    res.send (req.body);
     return;
 };
