@@ -1,3 +1,7 @@
 exports.index = (req, res) => {
-    res.render('oie');
+    res.render('contato');
+};
+
+exports.register = (req, res) => {
+    res.send('oi');
 };
